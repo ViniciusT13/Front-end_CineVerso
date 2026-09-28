@@ -3,7 +3,10 @@
   --cor-texto: #fff;
   --selecao: #d97706;
 }
-
+:global(body) {
+  min-width: 320px;
+  background: #0f1117;
+}
 body {
   background: linear-gradient(135deg, #0f1117 0%, #161922 100%);
 }
