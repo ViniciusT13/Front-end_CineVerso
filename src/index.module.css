@@ -1,0 +1,8 @@
+:root {
+  --cor-principal: #0f1117;
+  --cor-texto: #fff;
+}
+
+body {
+  background: linear-gradient(135deg, #0f1117 0%, #161922 100%);
+}

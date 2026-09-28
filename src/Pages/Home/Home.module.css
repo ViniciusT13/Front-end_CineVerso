@@ -1,0 +1,62 @@
+.conteiner_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cor-principal);
+}
+.img_logo {
+  width: 200px;
+  padding-left: 25px;
+}
+.conteiner_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.link {
+  color: var(--cor-texto);
+  text-decoration: none;
+}
+.link_inscreva_se {
+  border: #d97706 solid 2px;
+  border-radius: 4px;
+  margin-right: 35px;
+  text-decoration: none;
+  color: var(--cor-texto);
+  padding: 8px 10px;
+}
+.input_busca {
+  display: flex;
+  align-items: center;
+  background-color: #1a1d29;
+  padding: 8px 16px;
+  border-radius: 50px;
+  width: 384px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: border-color 0.2s ease-in-out;
+}
+.input_busca:focus-within {
+  border-color: rgba(245, 158, 11, 0.5);
+}
+.icones {
+  width: 20px;
+  height: 20px;
+  color: #9ca3af;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+.input_busca input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  color: var(--cor-texto);
+  font-family: inherit;
+}
+.input_busca input ::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
